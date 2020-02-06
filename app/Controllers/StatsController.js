@@ -8,4 +8,5 @@ export default class StatsController{
 constructor(){
   console.log("StatsController is live");
 }
+
 }
