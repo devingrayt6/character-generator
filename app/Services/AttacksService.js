@@ -3,7 +3,7 @@ import _store from "../store.js"
 
 class AttacksService {
   constructor() {
-
+    console.log("Attack Service works!")
   }
 
 }

@@ -4,7 +4,9 @@ import Attacks from "./Models/Attacks.js"
 let _state = {
   activeValue: new Value({ title: "Value" }),
   /** @type {Value[]} */
-  values: []
+  values: [],
+  /** @type {Attacks[]} */
+  attacks: [],
 };
 
 class Store {
