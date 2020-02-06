@@ -1,4 +1,5 @@
 import CharacterService from '../Services/CharacterService.js'
+import { removeSmallest } from "../utils.js"
 
 
 export default class CharacterController {
