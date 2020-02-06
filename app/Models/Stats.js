@@ -1,4 +1,4 @@
-export class Stats{
+export default class Stats{
   constructor(data){
     this.wisScore=data.wisdomScore;
     this.intScore=data.intScore;
@@ -22,31 +22,33 @@ export class Stats{
         break;
 
       case "int":
-        mod= modCalc(this.intScore);
+        mod = modCalc(this.intScore);
         break;
 
       case "wis":
-        mod= modCalc(this.wisScore);
+        mod = modCalc(this.wisScore);
         break;
 
       case "const":
-        mod= modCalc(this.constScore);
+        mod = modCalc(this.constScore);
         break;
 
       case "dex":
-        mod= modCalc(this.dexScore);
+        mod = modCalc(this.dexScore);
         break;
 
       case "char":
-        mod= modCalc(this.charScore);
+        mod = modCalc(this.charScore);
         break;
-      
-      
     }
+
     return mod;
   }
-  
+  //end of stats class
   }
+
+  //stats function 
+
   //calculates the modifier score based on attribute value
   function modCalc(score){
     let mod;
