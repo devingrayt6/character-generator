@@ -6,5 +6,6 @@ export default class Character {
     this.race = data.race
     this.inventory = data.inventory
     this.description = data.description
+    this.stats = data.stats
   }
 }
