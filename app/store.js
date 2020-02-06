@@ -1,4 +1,5 @@
 import Value from "./Models/Value.js";
+import Attacks from "./Models/Attacks.js"
 
 let _state = {
   activeValue: new Value({ title: "Value" }),
