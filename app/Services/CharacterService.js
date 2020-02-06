@@ -1,6 +1,6 @@
 import Character from '../Models/Character.js';
 
-export default class CharacterServices {
+class CharacterService {
   constructor() {
     console.log("Hello from character services")
   }
@@ -16,3 +16,7 @@ export default class CharacterServices {
   }
 
 }
+
+const CHARACTERSERVICE = new CharacterService()
+
+export default CHARACTERSERVICE
