@@ -2,7 +2,7 @@ import Character from '../Models/Character.js';
 
 export default class CharacterServices {
   constructor() {
-
+    console.log("Hello from character services")
   }
 
   rollStatsStandard() {
