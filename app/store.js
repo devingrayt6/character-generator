@@ -1,10 +1,12 @@
 import Value from "./Models/Value.js";
-import Attacks from "./Models/Attacks.js"
+import Miss from "./Models/Miscellaneous.js"
 
 let _state = {
   activeValue: new Value({ title: "Value" }),
   /** @type {Value[]} */
-  values: []
+  values: [],
+  /**@type {Miss[]} */
+  Miss: []
 };
 
 class Store {
