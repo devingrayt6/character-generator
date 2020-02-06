@@ -12,32 +12,15 @@ class CharacterService {
       var rollArray = []
       rollArray.push(roll)
     }
-
     removeSmallest(rollArray)
-
-    let rollSum
-
+    let rollSum = 0
     for (let i = 0; i < rollArray.length; i++) {
       rollSum += rollArray[i]
     }
-    // let first =rollArray[0];
-    // let location;
-    // for(let i=0;i<rollArray.length;i++){
-    //   if(i+1<rollArray.length){
-    //   if(first<=rollArray[i+1]){
-    //     location =i;
-    //   }
-    //   else{
-    //     first=rollArray[i+1]
-    //   }
-    // }
-    // else{
-    //   rollArray[location]
-    // }
+    return rollSum
   }
 }
 
-}
 
 
 const CHARACTERSERVICE = new CharacterService()
