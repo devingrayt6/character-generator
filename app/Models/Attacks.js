@@ -23,3 +23,4 @@ export default class Attacks {
     <a class="dropdown-item" onclick = "app.attackscontroller.displayDescription(${this.name})">${this.name}</a>`
   }
 }
+let fireball = new Attacks({ name: "fireball", attack: 7, description: "yada", imgURl: "fix" })

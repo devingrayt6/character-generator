@@ -18,6 +18,6 @@ Architecture:
 
   STATS:
     Attack Set: bradley
-    Defense Set: Jake H.
+    Miscellaneous Set: Jake H.
     Wisdom, Charisma, etc. : BrianW.
     
