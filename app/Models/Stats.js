@@ -1,4 +1,4 @@
-export class Stats{
+export default class Stats{
   constructor(data){
     this.wisScore=data.wisdomScore;
     this.intScore=data.intScore;
@@ -46,7 +46,7 @@ export class Stats{
   }
   //end of stats class
   }
-  
+
   //stats function 
 
   //calculates the modifier score based on attribute value
