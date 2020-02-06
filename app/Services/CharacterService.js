@@ -4,4 +4,15 @@ export default class CharacterServices {
   constructor() {
 
   }
+
+  rollStatsStandard() {
+
+    for (let i = 0; i < 4; i++) {
+      let roll = Math.floor((Math.random() * 6) + 1)
+      console.log(roll)
+    }
+
+
+  }
+
 }
