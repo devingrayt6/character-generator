@@ -1,4 +1,5 @@
 import Character from '../Models/Character.js';
+import { removeSmallest } from '../utils.js'
 
 class CharacterService {
   constructor() {
@@ -17,6 +18,7 @@ class CharacterService {
     for (let i = 0; i < rollArray.length; i++) {
       rollSum += rollArray[i]
     }
+    console.log(rollSum)
     return rollSum
   }
 }
