@@ -7,7 +7,10 @@ let _state = {
   /** @type {Value[]} */
   values: [],
   /**@type {Miss[]} */
-  Miss: []
+  Miss: [],
+  /**@type {Attacks[]} */
+  attacks: [],
+
 };
 
 class Store {

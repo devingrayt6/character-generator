@@ -19,7 +19,6 @@ function _drawDesc(name) {
     }
   })
   descElem.innerHTML = template;
-
 }
 export default class AttackController {
   constructor() {
