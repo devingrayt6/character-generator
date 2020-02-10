@@ -1,6 +1,7 @@
 
-
-export default class Attacks {
+/*NOTE These are the current templates and datasets. Please let me know if they need
+modifying, changing them obviously might cause problems.*/
+export default class Attack {
   constructor(data) {
     this.name = data.name,
       this.attack = data.attack,
@@ -23,4 +24,4 @@ export default class Attacks {
     <a class="dropdown-item" onclick = "app.attackscontroller.displayDescription(${this.name})">${this.name}</a>`
   }
 }
-let fireball = new Attacks({ name: "fireball", attack: 7, description: "yada", imgURl: "fix" })
+let fireball = new Attack({ name: "fireball", attack: 7, description: "yada", imgURl: "fix" })

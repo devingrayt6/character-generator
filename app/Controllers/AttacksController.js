@@ -1,6 +1,8 @@
 import _attackService from "../Services/AttacksService.js"
 import _store from "../store.js"
-
+/*NOTE This is just supposed to draw the attacks in a dropdown menu from bootstrap,
+then if you click on one it'll show a description card. It has the structure to 
+equip attacks like spells to the character eventually. */
 function _drawDrop() {
   let dropElem = document.getElementById("attack-dropdown");
   let dropTemplate = "";
